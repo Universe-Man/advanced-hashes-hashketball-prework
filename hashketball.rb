@@ -93,8 +93,12 @@ def game_hash
 end
 
 def num_points_scored(name)
-thing = game_hash[:home][:players][name][:points]
-binding.pry
-   thing2 = game_hash[:away][:players][name][:points]
+  game_hash[:home][:players][name][:points]
+  game_hash[:away][:players][name][:points]
 
+end
+
+def shoe_size(name)
+  game_hash
+  binding.pry
 end
