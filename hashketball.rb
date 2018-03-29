@@ -93,7 +93,7 @@ def game_hash
 end
 
 def num_points_scored(name)
-  if game_hash[:home][:players][name][:points]
-  elsif game_hash[:away][:players][name][:points]
-end
+thing = game_hash[:home][:players][name][:points]
+
+   thing2 = game_hash[:away][:players][name][:points]
 end
