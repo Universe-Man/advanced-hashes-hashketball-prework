@@ -96,4 +96,5 @@ def num_points_scored(name)
 thing = game_hash[:home][:players][name][:points]
 
    thing2 = game_hash[:away][:players][name][:points]
+   binding.pry
 end
